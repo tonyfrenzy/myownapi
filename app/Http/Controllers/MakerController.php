@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 
 use App\Maker;
+use App\Http\Requests\CreateMakerRequest;
 
 class MakerController extends Controller
 {
@@ -21,6 +22,16 @@ class MakerController extends Controller
     	return response()->json(['data' => $makers], 200);
     	//dd($makers);
     }
+
+
+	public function store(CreateMakerRequest $request)
+	{
+		$values = $request->only(['name', 'phone']);
+
+        Maker::create($values);
+
+        return response()->json(['message' => 'Maker correctly added'], 201);
+	}    
 
 
     public function show($id)
