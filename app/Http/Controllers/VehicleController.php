@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class MakerController extends Controller
+class VehicleController extends Controller
 {
     public function index()
     {
-    	return ("I'm the Vehicle Makers Index Page.");
+    	return ("I'm the Vehicles Index Page.");
     }
 }
