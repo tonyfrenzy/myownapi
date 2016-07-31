@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//   return view('welcome');
+//});
+
+//DEL Route::get('/{name?}', 'MyController@index');
+Route::resource('makers', 'MakerController', ['except' => ['create', 'edit']]);
+
+Route::resource('vehicles', 'VehicleController', ['only' => ['index', 'show']]);
+
+Route::resource('makers.vehicles', 'MakerVehiclesControiller', ['except' => ['create', 'edit']]);

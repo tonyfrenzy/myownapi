@@ -1,0 +1,213 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/MyOwnAPI"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/coursegame/resources/views/hello.blade.php",
+		"/C/xampp/htdocs/coursegame/app/Http/Controllers/Hello.php",
+		"/C/xampp/htdocs/coursegame/resources/views/layout.blade.php",
+		"/C/xampp/htdocs/coursegame/app/Http/Controllers/Play.php",
+		"/C/xampp/htdocs/coursegame/app/Http/Controllers/hello.php",
+		"/C/xampp/htdocs/coursegame/app/Helpers/PlayHelpers.php",
+		"/C/xampp/htdocs/coursegame/app/TopicImage.php",
+		"/C/xampp/htdocs/coursegame/app/Subject.php",
+		"/C/xampp/htdocs/coursegame/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php",
+		"/C/xampp/htdocs/coursegame/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/app_dummy/app/Http/routes.php",
+		"/C/xampp/htdocs/app_dummy/app/User.php",
+		"/C/xampp/htdocs/app_dummy/database/factories/ModelFactory.php",
+		"/C/xampp/htdocs/app_dummy/database/migrations/2016_07_25_201455_makers_table.php",
+		"/C/xampp/htdocs/app_dummy/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/app_dummy/.env",
+		"/C/xampp/htdocs/app_dummy/app/Maker.php",
+		"/C/xampp/htdocs/app_dummy/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php",
+		"/C/xampp/htdocs/app_dummy/vendor/fzaninotto/faker/src/Faker/ORM/Propel/Populator.php",
+		"/C/xampp/htdocs/app_dummy/resources/assets/bootstrap-3.3.6/fonts/glyphicons-halflings-regular.woff2",
+		"/C/xampp/htdocs/app_dummy/vendor/laravel/framework/src/Illuminate/Console/Command.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/Dirrr/.env"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$table",
+			"table",
+			"Illuminate\\Database\\Eloquent\\Model",
+			"$fillable",
+			"secret",
+			"app_dummy"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MyOwnAPI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"model",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"",
+				"vendor\\fzaninotto\\faker\\src\\Faker\\ORM\\Propel\\Populator.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "e",
+		"selected_items":
+		[
+			[
+				"e",
+				"Else_"
+			]
+		],
+		"width": 943.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
