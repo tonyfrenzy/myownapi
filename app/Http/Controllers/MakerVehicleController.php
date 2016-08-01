@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 
 use App\Maker;
-
 use App\Vehicle;
+use App\Http\Requests\Request\CreateVehicleRequest;
 
 class MakerVehicleController extends Controller
 {
@@ -26,8 +26,28 @@ class MakerVehicleController extends Controller
     }
 
 
+    public function store(CreateVehicleRequest $request $makerId)
+    {
+        $maker = Maker::find($makerId);
+        
+        if(!$maker)
+        {
+            return response()->json(['message' = 'This maker does not exist'],);
+        }
+
+        $values = $request->all();
+
+        $maker->vehicles()->create($values);
+        //Vehicle::create($values);
+
+        return response()->json(['message' => 'The vehicle associated was created'], 201);
+    }
+
+
     public function show($id, $vehicleId)
     {
+
+
     	$maker = Maker::find($id);
 
     	if(!$maker)

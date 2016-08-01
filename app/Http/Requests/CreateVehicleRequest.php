@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
 
-class CreateMakerRequest extends Request
+class CreateVehicleRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -16,7 +16,6 @@ class CreateMakerRequest extends Request
         return true;
     }
 
-
     /**
      * Get the validation rules that apply to the request.
      *
@@ -25,8 +24,10 @@ class CreateMakerRequest extends Request
     public function rules()
     {
         return [
-            'name' => 'required', 
-            'phone' => 'required'
+            'color' => 'required',
+            'power' => 'required',
+            'capacity' => 'required',
+            'speed' => 'required',
         ];
     }
 
@@ -36,14 +37,5 @@ class CreateMakerRequest extends Request
 
         return response()->json(['message' => $errors, 'code' => 422], 422);
 
-        /*
-        if (($this->ajax() && ! $this->pjax()) || $this->wantsJson()) {
-            return new JsonResponse($errors, 422);
-        }
-
-        return $this->redirector->to($this->getRedirectUrl())
-                                        ->withInput($this->except($this->dontFlash))
-                                        ->withErrors($errors, $this->errorBag);
-        */
     }
 }
